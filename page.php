@@ -92,9 +92,16 @@ $all_items=getAllItems();
 	<label for="">Price:</label>
 	<input type="text" name="price">
 
-	<input type="submit">
+	<input type="submit"><img src="kiss.PNG">
 </form>
-
+	<div class="bottom" style="
+  			width: 100vw;
+  			height: 20vh;
+  			background-image: url('./bottom.PNG');
+			background-size: cover;
+			background-position: center center;">
+	
+	</div>
 
 
 

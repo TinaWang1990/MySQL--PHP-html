@@ -16,7 +16,7 @@ $stmt=$pdo->prepare($sql);
 $stmt->execute(
 	array(
 		':brand'=>$brand,
-		':item'=>$item,
+		':item'=>$ITEM,
 		':price'=>$price
 	)
 );
