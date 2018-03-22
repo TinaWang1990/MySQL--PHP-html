@@ -28,6 +28,7 @@ $all_items=getAllItems();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>hopping list from sepero</title>
+
   </head>
   <body>
   	<div class="top" style="
@@ -94,6 +95,25 @@ $all_items=getAllItems();
 
 	<input type="submit"><img src="kiss.PNG">
 </form>
+
+<p style="margin-left: 1vw;">ABOUT US:</p>
+<div class="scrollbar" style="
+width: 98VW; 
+height: 100px;
+margin: 0 1vw; 
+overflow: scroll;
+scrollbar-face-color: #889B9F;
+/*scrollbar-face-color:grey;*/
+scrollbar-base-color:red;
+scrollbar-arrow-color:yellow;
+">
+<p>Sephora is a leader in global prestige retail, teaching and inspiring clients to play in a world of beauty. Owned by LVMH Moët Hennessy Louis Vuitton, the world's leading luxury goods group, Sephora has earned its reputation as a beauty trailblazer with its expertise, innovation, and entrepreneurial spirit.
+
+At Sephora, beauty is in our DNA. Our revolutionary beauty-retail concept, founded in France by Dominique Mandonnaud in 1970, is defined by its unique, open-sell environment with an ever-increasing assortment of products from carefully curated brands, featuring indie darlings, emerging favorites, trusted classics, and Sephora’s own, SEPHORA COLLECTION. Today, Sephora is not only the leading retailer of perfume and cosmetics stores in France, but also a powerful beauty presence in countries around the world thanks to its unparalleled assortment of prestige products in every category, unbiased service from experts, interactive shopping environment, and innovation.
+
+Sephora believes every stroke, swipe and dab reveals possibility, and we share our client’s love for the confidence that our products, services, and expertise brings to their life every day. In every store, clients unlock their beauty potential at our Beauty, Skincare and Fragrance Studios through intuitive technology and guidance from the most knowledgeable and professional team of product consultants in the beauty industry.</p>
+</div>
+
 	<div class="bottom" style="
   			width: 100vw;
   			height: 20vh;
@@ -102,7 +122,6 @@ $all_items=getAllItems();
 			background-position: center center;">
 	
 	</div>
-
 
 
 
