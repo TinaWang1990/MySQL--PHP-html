@@ -11,7 +11,7 @@ function getAllItems() {
  function insertAItem($brand,$ITEM,$price){
  	$pdo= new PDO('mysql:host=localhost; dbname=homework;charset=utf8mb4','root','root');
 
- $sql = "INSERT INTO shopping_list (Brand, `ITEM#`, Price($)) VALUES(:brand,:item,:price)";
+ $sql = "INSERT INTO shopping_list (Brand, `ITEM#`, `Price($)`) VALUES(:brand,:item,:price)";
 $stmt=$pdo->prepare($sql);
 $stmt->execute(
 	array(
@@ -24,7 +24,7 @@ $affected_rows=$stmt->rowCount();
 
 return $affected_rows;
 }
-insertAItem('Kit Lit','155','100');
+// insertAItem('lotion','155123','100');
 
 
 
